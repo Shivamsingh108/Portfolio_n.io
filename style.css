@@ -1,0 +1,370 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    display: flex;
+}
+
+.sidebar{
+    position: absolute;
+    background-color: rgba(13, 20, 42, 0.854);
+    height: 100vh;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    transition: transform 0.3s ease-in;
+}
+
+.sidebar nav{
+    padding: 30px;
+}
+
+.sidebar nav li{
+    list-style: none;
+    font-size: 28px;
+    padding: 33px 0;
+}
+
+.sidebar nav li a{
+    text-decoration: none;
+    color: cornsilk;
+}
+
+.main{
+    background-color: white;
+    width: 100vw;
+    padding: 30px;
+}
+
+.info{
+    background-color: #C4FCEF;
+    height: 65vh;
+    width: 80vw;
+    margin: 80px auto;
+    display: flex;
+    justify-content: space-around;
+    border-radius: 50px;
+    border-style: groove;
+}
+
+.devInfo{
+    font-size: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 15px;
+}
+
+.hello{
+    font-size: 3em;
+}
+.name{
+    font-size: 2.5em;
+}
+.about{
+    font-size: 2em;
+}
+
+.moreabout{
+    font-size: 1.5em;
+    margin-top: 23px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.btn{
+    margin-top: 2.2px;
+    font-size: 10px;
+}
+.btn button{
+    margin: 3px 3px;
+   padding: 9px 15px;
+    border-radius: 30px;
+    color: aliceblue;
+    background-color: darkgreen;
+    font-weight: bold;
+    font-size: 2em;
+    cursor: pointer;
+}
+
+.btn-sm{
+    width: 100px;
+}
+
+.btn button:hover{
+    color: darkgreen;
+    background-color:  aliceblue;
+}
+
+
+.devPic img{
+    height: 65vh;
+    border-radius: 35px;
+}
+
+.footer{
+    bottom: 0;
+}
+
+.foot-container{
+    height: auto;
+    width: 100vw;
+    font-size: 16px;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #0e365a;
+    color: #C4FCEF;
+    justify-content: space-around;
+    padding: 30px;
+}
+
+.foot-list h3{
+    font-size: 1.5em;
+    padding: 5px;
+}
+
+.foot-list{
+    list-style: none;
+    padding: 15px;
+    margin-right: 15px;
+    font-size: 1.2em;
+}
+
+.foot-list li{
+    padding: 10px;
+}
+ 
+
+.contactform{
+    margin:100px;
+    padding: 0 34px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.contactform h1{
+    margin-left: 40px;
+    /* padding: 12px 0; */
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.contactform form div{
+    padding: 8px 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.contactform form div input{
+   /* width: 26vw; */
+   border-radius: 5px;
+   margin: 6px 0 0 0;
+   padding: 3px;
+}
+
+.contactform form{
+   margin: 0 40px;
+}
+
+#copy{
+    background-color: #0e365a;
+    color: #C4FCEF;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+#emailHelp{
+    font-size: 10px;
+    color: midnightblue;
+    margin: 0 5px;
+    padding: 3px 0 0 0;
+}
+
+#form-check{
+    flex-direction: row;
+}
+
+#form-check input{
+    width: 24px;
+    margin: 3px 0;
+}
+
+.blog-container{
+    margin: 40px 80px;
+}
+
+.blogItem{
+    margin: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #C4FCEF;
+    padding: 5px;
+    border-radius: 10px;
+    border-style: groove;
+}
+.blog-container h1{
+    font-family: 'Times New Roman', Times, serif;
+    margin: 23px;
+}
+.blogItem p{
+    font-family:  sans-serif;
+    margin-top: 10px;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.info-container{
+    margin: 40px 90px;
+}
+
+.intro h1{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 50px 12px 12px 12px;
+}
+
+.intro p{
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 12px;
+    padding: 5px;
+    border-radius: 12px;
+    background-color: #C4FCEF;
+    border-style: groove;
+}
+
+/* .skillbox{
+    display: flex;
+    align-items: center;
+} */
+
+.skill-container{
+    margin: 20px;
+    padding: 0 40px;
+    font-size: 18px;
+}
+
+.skillP{
+    width: 300px;
+    background-color: rgb(201, 201, 201);
+}
+
+.skill{
+    height: 15px;
+    font-size: 2.2em;
+}
+
+.gA{
+    width: 265px;
+    background-color: yellow;
+}
+.gB{
+    width: 175px;
+    background-color: yellowgreen;
+}
+
+.gC{
+    width: 125px;
+    background-color: cornflowerblue;
+}
+.gD{
+    width: 100px;
+    background-color: orange;
+}
+.gE{
+    width: 75px;
+    background-color: blue;
+}
+.project-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+.project-contant{
+    margin: 10px 5px 5px 5px;
+    padding: 10px 10px 15px 10px;
+    border-radius: 10px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+    background-color:#C4FCEF;
+    border-style: groove;
+
+}
+.card{
+    height: 150px;
+    width: 250px;
+}
+.card1{
+    background-image: url("/amz.png");
+    background-size: cover;
+}
+.card1:hover{
+    
+}
+.card2{
+    background-image: url("/portfolio_page.png");
+    background-size: cover;
+}
+.card3{
+    background-image: url("/coming\ soon1.jpeg");
+    background-size: cover;
+}
+.card4{
+    background-image: url("/comingsoon3.png");
+    background-size: cover;
+}
+.head{
+    padding: 10px;
+    align-items: center;
+}
+.sidebargo{
+    transform: translate(-434px, 0);
+    position: absolute;
+}
+
+.hamburger{
+    position: absolute;
+    cursor: pointer;
+    top: 10px;
+    left: 10px;
+}
+
+.ham{
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.cross{
+    margin-left: 150px;
+    margin-top: 10px;
+}
+
+
+@media (max-width: 1200px) {
+
+    .devInfo{
+        font-size: 10px;
+    }
+    .devPic{
+        display: none;
+    }
+
+    .btn{
+        font-size: 5px;
+    }
+
+    .skill-container,.info-container,.intro , .blog-container, .contactform{
+        margin: 50px 8px;
+    }
+
+
+    .skill-container{
+        padding: 0 8px;
+    }
+/*     
+    .sidebar{
+        transform: translate(-434px, 0);
+        position: absolute;
+    } */
+}
